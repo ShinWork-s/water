@@ -1,0 +1,2266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="高品質な卓上ウォーターサーバーを月額制でお届け。美味しいお水をいつでも手軽に。省スペース設計で場所を取らず、スタイリッシュなデザインでどんなインテリアにもマッチ。ペットボトル削減でエコな生活を。">
+<title>アクアピュア - 卓上ウォーターサーバーサブスクリプション | 初期費用0円</title>
+<!-- 構造化データ -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Product",
+"name": "アクアピュア 卓上ウォーターサーバー Model-X",
+"image": "https://www.aquapure.co.jp/images/model-x.jpg",
+"description": "コンパクト設計の高機能卓上ウォーターサーバー。5段階フィルターシステムで美味しいお水を提供。温水・冷水対応で、場所を取らないスタイリッシュなデザイン。",
+"brand": {
+"@type": "Brand",
+"name": "アクアピュア"
+},
+"offers": {
+"@type": "Offer",
+"url": "https://www.aquapure.co.jp/",
+"priceCurrency": "JPY",
+"price": "3980",
+"priceValidUntil": "2026-03-31",
+"availability": "https://schema.org/InStock"
+}
+}
+</script>
+<style>
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ヘッダー */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0078c8;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #0078c8;
+}
+
+.cta-button {
+    background-color: #0078c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #005ea8;
+}
+
+/* ハンバーガーメニュー（モバイル用） */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+/* ヒーローセクション */
+.hero {
+    background: linear-gradient(135deg, #e0f7ff 0%, #badeff 100%);
+    padding: 160px 5% 80px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #0056a8;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.stat-item {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+.stat-item strong {
+    color: #0078c8;
+}
+
+.hero-image {
+    margin-top: 40px;
+    position: relative;
+}
+
+.product-scene {
+    position: relative;
+    display: inline-block;
+}
+
+.scene-image {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    position: absolute;
+    bottom: -30px;
+    right: -50px;
+    width: 200px;
+    transition: transform 0.3s;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.1));
+}
+
+.color-selector {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: transform 0.3s;
+}
+
+.color-option:hover {
+    transform: scale(1.1);
+}
+
+.color-option.selected {
+    border: 2px solid #0078c8;
+    transform: scale(1.1);
+}
+
+.color-option.white {
+    background-color: #f5f5f5;
+}
+
+.color-option.blue {
+    background-color: #0078c8;
+}
+
+/* 特徴セクション */
+.features {
+    padding: 80px 5%;
+    background-color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 60px;
+    color: #0056a8;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 60px;
+}
+
+.feature-card {
+    flex: 1 1 300px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #0078c8;
+}
+
+.feature-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #0056a8;
+}
+
+/* ターゲットユーザーセクション */
+.target-users {
+    max-width: 1000px;
+    margin: 60px auto 0;
+}
+
+.target-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #0056a8;
+}
+
+.target-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.target-item {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.target-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.target-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0056a8;
+}
+
+.target-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* 商品仕様セクション */
+.specifications {
+    padding: 80px 5%;
+    background-color: #f9f9f9;
+}
+
+.product-tabs {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    flex: 0 1 auto;
+    min-width: 200px;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+}
+
+.tab-button .tag {
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    color: #666;
+    margin-left: 5px;
+}
+
+.tab-button:hover {
+    border-color: #0078c8;
+    color: #0078c8;
+}
+
+.tab-button.active {
+    background-color: #0078c8;
+    color: white;
+    border-color: #0078c8;
+}
+
+.tab-button.active .tag {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.tab-content {
+    position: relative;
+}
+
+.tab-panel {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.spec-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.spec-image {
+    flex: 1 1 400px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.color-choices {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.color-choice {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.3s;
+}
+
+.color-choice:hover {
+    transform: scale(1.1);
+}
+
+.color-choice.active {
+    border-color: #0078c8;
+    transform: scale(1.1);
+}
+
+.color-choice.white {
+    background-color: #f5f5f5;
+}
+
+.color-choice.blue {
+    background-color: #0078c8;
+}
+
+.color-choice.black {
+    background-color: #333;
+}
+
+.color-choice.gold {
+    background-color: #d4af37;
+}
+
+.color-choice.silver {
+    background-color: #c0c0c0;
+}
+
+.spec-details {
+    flex: 1 1 600px;
+    padding: 30px 40px;
+    background-color: #fff;
+}
+
+.spec-details h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.model-tag {
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: #0078c8;
+    color: white;
+}
+
+.model-tag.premium {
+    background-color: #d4af37;
+}
+
+.model-tag.office {
+    background-color: #555;
+}
+
+.product-desc {
+    margin-bottom: 25px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.spec-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.spec-feature {
+    flex: 1 1 180px;
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.feature-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #0078c8;
+}
+
+.feature-text h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.feature-text p {
+    font-size: 12px;
+    color: #666;
+}
+
+.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+.spec-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.spec-table th, .spec-table td {
+    padding: 12px 10px;
+    text-align: left;
+}
+
+.spec-table th {
+    width: 30%;
+    color: #666;
+    font-weight: 500;
+}
+
+.price-badge {
+    display: inline-block;
+    background-color: #0078c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.spec-cta {
+    display: inline-block;
+    background-color: #0078c8;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 15px;
+}
+
+.spec-cta:hover {
+    background-color: #0056a8;
+}
+
+/* プラン・料金セクション */
+.pricing {
+    padding: 80px 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.pricing-tabs {
+    max-width: 1200px;
+    margin: 0 auto 60px;
+}
+
+.pricing-tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.pricing-tab-button {
+    flex: 0 1 auto;
+    min-width: 160px;
+    padding: 15px 25px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.pricing-tab-button:hover {
+    background-color: #e5e5e5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-tab-button.active {
+    background-color: #0078c8;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 120, 200, 0.3);
+}
+
+.pricing-tab-content {
+    position: relative;
+}
+
+.pricing-tab-panel {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.pricing-tab-panel.active {
+    display: block;
+}
+
+.plan-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+.plan-popular-badge {
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 5px 40px;
+    font-size: 14px;
+    font-weight: bold;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.plan-header {
+    padding: 30px;
+    background: linear-gradient(135deg, #f9f9f9 0%, #f1f1f1 100%);
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.plan-title {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.plan-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.plan-price {
+    margin-bottom: 15px;
+}
+
+.price-amount {
+    font-size: 42px;
+    font-weight: bold;
+    color: #0078c8;
+}
+
+.price-period {
+    font-size: 18px;
+    color: #666;
+}
+
+.plan-billing {
+    font-size: 14px;
+    color: #888;
+}
+
+.plan-body {
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.plan-description {
+    text-align: left;
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.plan-features {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.plan-features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 30px;
+}
+
+.plan-features li:before {
+    content: "✓";
+    color: #0078c8;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.plan-recommendation {
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.recommendation-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.recommendation-list {
+    list-style: disc;
+    padding-left: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.recommendation-list li {
+    margin-bottom: 5px;
+}
+
+.plan-footer {
+    padding: 30px;
+    text-align: center;
+}
+
+.plan-cta {
+    display: inline-block;
+    background-color: #0078c8;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.plan-cta:hover {
+    background-color: #0056a8;
+    transform: translateY(-3px);
+}
+
+.plan-cta.highlighted {
+    background-color: #ff6b6b;
+}
+
+.plan-cta.highlighted:hover {
+    background-color: #ff5252;
+}
+
+.plan-note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.plan-comparison {
+    max-width: 900px;
+    margin: 0 auto 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.comparison-header {
+    background-color: #0078c8;
+    color: white;
+    padding: 15px;
+}
+
+.comparison-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.comparison-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.comparison-row.header {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.comparison-row.header .comparison-cell {
+    font-weight: bold;
+    color: white;
+}
+
+.comparison-cell {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.comparison-body {
+    background-color: white;
+}
+
+.comparison-body .comparison-cell:first-child {
+    text-align: left;
+    justify-content: flex-start;
+    font-weight: 500;
+}
+
+.highlight {
+    color: #0078c8;
+    font-weight: bold;
+}
+
+.payment-security {
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 600px;
+}
+
+.payment-security p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.payment-security-banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+    border: 1px solid #d0e8ff;
+    max-width: 800px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.security-icon {
+    font-size: 28px;
+    margin-right: 20px;
+    color: #0078c8;
+    flex: 0 0 auto;
+}
+
+.security-text {
+    flex: 1 1 auto;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.security-text p {
+    margin: 0;
+    font-weight: 600;
+    color: #0056a8;
+    font-size: 16px;
+}
+
+.security-subtext {
+    font-size: 14px !important;
+    color: #666 !important;
+    font-weight: normal !important;
+    margin-top: 5px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .payment-security-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .security-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .security-text {
+        margin-right: 0;
+        margin-bottom: 15px;
+        min-width: 0;
+    }
+}
+
+/* よくある質問セクション */
+.faq {
+    padding: 80px 5%;
+    background-color: #f9f9f9;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+    padding: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #0056a8;
+}
+
+.faq-answer {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+    transition: max-height 0.3s, padding 0.3s;
+}
+
+.faq-item.active .faq-answer {
+    padding: 20px;
+    max-height: 1000px;
+}
+
+/* お客様の声セクション */
+.testimonials {
+    padding: 80px 5%;
+    background-color: #f9f9f9;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    flex: 1 1 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-rating {
+    color: #ffc107;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.testimonial-info {
+    text-align: left;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial-details, .testimonial-date {
+    font-size: 14px;
+    color: #777;
+}
+
+/* 環境貢献セクション */
+.eco-section {
+    padding: 80px 5%;
+    background-color: #e9f7ff;
+    text-align: center;
+}
+
+.eco-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.eco-title {
+    font-size: 32px;
+    color: #0056a8;
+    margin-bottom: 40px;
+}
+
+.eco-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.eco-stat-item {
+    flex: 1 1 200px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.eco-stat-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0078c8;
+    margin-bottom: 10px;
+}
+
+.eco-stat-text {
+    color: #555;
+    line-height: 1.4;
+}
+
+.eco-message {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* CTA セクション */
+.cta-section {
+    padding: 100px 5%;
+    background: linear-gradient(135deg, #0078c8 0%, #00a0e9 100%);
+    color: white;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-benefits span {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.cta-button-large {
+    background-color: white;
+    color: #0078c8;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.cta-button-large:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.05);
+}
+
+.cta-note {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 5% 30px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1 1 250px;
+    margin-bottom: 30px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #0078c8;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0078c8;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0078c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #0056a8;
+}
+
+.social-icon img {
+    width: 16px;
+    height: 16px;
+}
+
+.trust-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.trust-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.trust-badge img {
+    margin-bottom: 5px;
+}
+
+.trust-badge span {
+    font-size: 12px;
+    color: #ccc;
+}
+
+/* レスポンシブデザイン */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-menu.active {
+        display: flex;
+    }
+    
+    .nav-menu li {
+        margin: 10px 0;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .hero h1 {
+        font-size: 32px;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .price-highlight {
+        font-size: 36px;
+    }
+    
+    .tab-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .tab-button {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .pricing-tab-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .pricing-tab-button {
+        flex: 1 1 auto;
+        min-width: 0;
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    
+    .spec-container {
+        flex-direction: column;
+    }
+    
+    .spec-image, .spec-details {
+        flex: 1 1 100%;
+    }
+    
+    .spec-feature {
+        flex: 1 1 100%;
+    }
+    
+    .price-badge {
+        display: block;
+        margin: 20px auto;
+    }
+    
+    .spec-cta {
+        display: block;
+        margin: 15px auto 0;
+        text-align: center;
+    }
+    
+    .plan-container {
+        margin: 0 10px;
+    }
+    
+    .plan-popular-badge {
+        font-size: 12px;
+        padding: 3px 30px;
+    }
+    
+    .plan-header {
+        padding: 20px 15px;
+    }
+    
+    .plan-title {
+        font-size: 24px;
+    }
+    
+    .price-amount {
+        font-size: 36px;
+    }
+    
+    .plan-body {
+        padding: 20px 15px;
+    }
+    
+    .plan-footer {
+        padding: 20px 15px;
+    }
+    
+    .plan-cta {
+        width: 100%;
+        padding: 12px 15px;
+    }
+    
+    .comparison-cell {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+    
+    .hero-stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .pricing-tab-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pricing-tab-button {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .plan-title {
+        font-size: 22px;
+    }
+    
+    .price-amount {
+        font-size: 32px;
+    }
+    
+    .comparison-title {
+        font-size: 18px;
+    }
+    
+    .comparison-cell {
+        font-size: 12px;
+    }
+
+    .copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    color: #999;
+    }
+}
+</style>
+
+</head>
+<body>
+<!-- ヘッダー -->
+<header>
+<div class="header-container">
+    <div class="logo">アクアピュア</div>
+    <ul class="nav-menu">
+        <li><a href="#features">特徴</a></li>
+        <li><a href="#specifications">商品仕様</a></li>
+        <li><a href="#pricing">料金プラン</a></li>
+        <li><a href="#faq">よくある質問</a></li>
+        <li><a href="company.html">会社案内</a></li>
+        <li><a href="#" class="cta-button">申し込む</a></li>
+    </ul>
+    <div class="hamburger">
+        <span>≡</span>
+    </div>
+</div>
+</header>
+
+    <!-- ヒーローセクション -->
+<section class="hero">
+<div class="hero-content">
+    <h1>いつでも、どこでも、<br>美味しいお水を。</h1>
+    <p>コンパクトな卓上ウォーターサーバーを月額制でお届け。<br>面倒なボトル交換や初期費用不要で、いつでも新鮮な美味しいお水をお楽しみいただけます。</p>
+    <p class="hero-stats">
+        <span class="stat-item"><strong>年間約500本</strong>のペットボトル削減</span>
+        <span class="stat-item"><strong>月々約2,000円</strong>の節約効果</span>
+        <span class="stat-item"><strong>98%</strong>のユーザー満足度</span>
+    </p>
+    <a href="form.html" class="cta-button">今すぐ申し込む</a>
+    
+    <div class="hero-image">
+        <div class="product-scene">
+            <img src="/api/placeholder/500/350" alt="キッチンに設置されたアクアピュア卓上ウォーターサーバー" class="scene-image">
+            <img src="/api/placeholder/300/300" alt="アクアピュア卓上ウォーターサーバー" class="product-image">
+        </div>
+        <div class="color-selector">
+            <div class="color-option white selected" title="ホワイト"></div>
+            <div class="color-option blue" title="ブルー"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- 特徴セクション -->
+<section class="features" id="features">
+<h2 class="section-title">アクアピュアの特徴</h2>
+<div class="features-container">
+    <div class="feature-card">
+        <div class="feature-icon">💧</div>
+        <h3>高品質な浄水</h3>
+        <p>5段階のフィルターシステムで、塩素や不純物を除去し、美味しさと安全性を追求しています。WHO水質基準をクリアした安全な水をご提供。</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">🔄</div>
+        <h3>らくらくメンテナンス</h3>
+        <p>定期的なフィルター交換サービス付き。面倒なメンテナンスは当社におまかせください。お手入れは週1回の簡単な拭き掃除だけ。</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <h3>お得な月額制</h3>
+        <p>初期費用0円。月々の定額料金だけで、いつでも美味しいお水を楽しめます。ペットボトル購入と比較して年間約24,000円の節約に。</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">🌡️</div>
+        <h3>温水・冷水対応</h3>
+        <p>温かい飲み物も冷たい飲み物も、このサーバー1台で簡単に楽しめます。温度調節機能付きで、お好みの温度に設定可能。</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">🏠</div>
+        <h3>コンパクト設計</h3>
+        <p>場所を取らない省スペース設計。キッチンカウンターやデスクにもすっきり置けます。一般的なサーバーの約半分のサイズ感。</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">🌿</div>
+        <h3>エコフレンドリー</h3>
+        <p>ペットボトルを減らし、環境にやさしいライフスタイルを実現します。4人家族で年間約500本のペットボトルゴミを削減できます。</p>
+    </div>
+</div>
+
+<div class="target-users">
+    <h3 class="target-title">こんな方におすすめ</h3>
+    <div class="target-list">
+        <div class="target-item">
+            <img src="/api/placeholder/150/150" alt="忙しい共働き家庭" class="target-icon">
+            <h4>忙しい共働き家庭</h4>
+            <p>ペットボトルの買い出し・持ち運びの手間を省き、いつでも美味しい水を。赤ちゃんのミルク作りにも安心して使えます。</p>
+        </div>
+        <div class="target-item">
+            <img src="/api/placeholder/150/150" alt="健康志向の方" class="target-icon">
+            <h4>健康志向の方</h4>
+            <p>水分摂取量を増やしたい方に。美味しい水が手軽に飲めるので、自然と水分補給の習慣が身につきます。</p>
+        </div>
+        <div class="target-item">
+            <img src="/api/placeholder/150/150" alt="小規模オフィス" class="target-icon">
+            <h4>小規模オフィス</h4>
+            <p>従業員の福利厚生に。コンパクトサイズで場所を取らず、コーヒーやお茶にも最適な水を提供します。</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- 商品仕様セクション -->
+<section class="specifications" id="specifications">
+<h2 class="section-title">商品ラインナップ</h2>
+
+<div class="product-tabs">
+    <div class="tab-buttons">
+        <button class="tab-button active" data-target="product-basic">Model-S <span class="tag">スタンダード</span></button>
+        <button class="tab-button" data-target="product-premium">Model-P <span class="tag">プレミアム</span></button>
+        <button class="tab-button" data-target="product-office">Model-O <span class="tag">オフィス</span></button>
+    </div>
+    
+    <div class="tab-content">
+        <!-- スタンダードモデル -->
+        <div class="tab-panel active" id="product-basic">
+            <div class="spec-container">
+                <div class="spec-image">
+                    <img src="/api/placeholder/400/400" alt="アクアピュア Model-S スタンダードモデル">
+                    <div class="color-choices">
+                        <span class="color-choice white active"></span>
+                        <span class="color-choice blue"></span>
+                    </div>
+                </div>
+                <div class="spec-details">
+                    <h3>アクアピュア Model-S <span class="model-tag">スタンダード</span></h3>
+                    <p class="product-desc">一人暮らしや小家族におすすめのコンパクトモデル。省スペース設計でキッチンカウンターやデスクにもすっきり置けます。温水と冷水の2段階温度設定で、日々の水分補給に最適です。</p>
+                    
+                    <div class="spec-features">
+                        <div class="spec-feature">
+                            <span class="feature-icon">🏠</span>
+                            <div class="feature-text">
+                                <h4>一人暮らし・小家族向け</h4>
+                                <p>1〜3人の使用に最適</p>
+                            </div>
+                        </div>
+                        <div class="spec-feature">
+                            <span class="feature-icon">🌡️</span>
+                            <div class="feature-text">
+                                <h4>2段階温度設定</h4>
+                                <p>冷水(5℃)・温水(85℃)</p>
+                            </div>
+                        </div>
+                        <div class="spec-feature">
+                            <span class="feature-icon">💧</span>
+                            <div class="feature-text">
+                                <h4>3段階フィルター</h4>
+                                <p>基本的な浄水性能</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <table class="spec-table">
+                        <tr>
+                            <th>サイズ</th>
+                            <td>幅20cm × 奥行25cm × 高さ32cm</td>
+                        </tr>
+                        <tr>
+                            <th>重量</th>
+                            <td>約3.0kg</td>
+                        </tr>
+                        <tr>
+                            <th>タンク容量</th>
+                            <td>2.0L</td>
+                        </tr>
+                        <tr>
+                            <th>消費電力</th>
+                            <td>420W</td>
+                        </tr>
+                        <tr>
+                            <th>カラー</th>
+                            <td>ホワイト / スカイブルー</td>
+                        </tr>
+                    </table>
+                    
+                    <div class="price-badge">月額 3,480円（税込）</div>
+                    <a href="form.html" class="spec-cta">このモデルを申し込む</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- プレミアムモデル -->
+        <div class="tab-panel" id="product-premium">
+            <div class="spec-container">
+                <div class="spec-image">
+                    <img src="/api/placeholder/400/400" alt="アクアピュア Model-P プレミアムモデル">
+                    <div class="color-choices">
+                        <span class="color-choice white active"></span>
+                        <span class="color-choice black"></span>
+                        <span class="color-choice gold"></span>
+                    </div>
+                </div>
+                <div class="spec-details">
+                    <h3>アクアピュア Model-P <span class="model-tag premium">プレミアム</span></h3>
+                    <p class="product-desc">多機能プレミアムモデル。5段階の温度設定と高性能フィルターシステムで、お茶やコーヒーにも最適な水質を実現。タッチパネル操作とスタイリッシュなデザインで、どんなインテリアにもマッチします。</p>
+                    
+                    <div class="spec-features">
+                        <div class="spec-feature">
+                            <span class="feature-icon">👨‍👩‍👧‍👦</span>
+                            <div class="feature-text">
+                                <h4>家族向け</h4>
+                                <p>3〜5人の使用に最適</p>
+                            </div>
+                        </div>
+                        <div class="spec-feature">
+                            <span class="feature-icon">🌡️</span>
+                            <div class="feature-text">
+                                <h4>5段階温度設定</h4>
+                                <p>4℃〜95℃まで1℃単位</p>
+                            </div>
+                        </div>
+                        <div class="spec-feature">
+                            <span class="feature-icon">💧</span>
+                            <div class="feature-text">
+                                <h4>5段階高性能フィルター</h4>
+                                <p>ミネラルバランス調整機能付き</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <table class="spec-table">
+                        <tr>
+                            <th>サイズ</th>
+                            <td>幅25cm × 奥行28cm × 高さ35cm</td>
+                        </tr>
+                        <tr>
+                            <th>重量</th>
+                            <td>約3.5kg</td>
+                        </tr>
+                        <tr>
+                            <th>タンク容量</th>
+                            <td>2.5L</td>
+                        </tr>
+                        <tr>
+                            <th>消費電力</th>
+                            <td>500W</td>
+                        </tr>
+                        <tr>
+                            <th>カラー</th>
+                            <td>ホワイト / ブラック / シャンパンゴールド</td>
+                        </tr>
+                    </table>
+                    
+                    <div class="price-badge">月額 4,980円（税込）</div>
+                    <a href="form.html" class="spec-cta">このモデルを申し込む</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- オフィスモデル -->
+        <div class="tab-panel" id="product-office">
+            <div class="spec-container">
+                <div class="spec-image">
+                    <img src="/api/placeholder/400/400" alt="アクアピュア Model-O オフィスモデル">
+                    <div class="color-choices">
+                        <span class="color-choice white active"></span>
+                        <span class="color-choice silver"></span>
+                    </div>
+                </div>
+                <div class="spec-details">
+                    <h3>アクアピュア Model-O <span class="model-tag office">オフィス</span></h3>
+                    <p class="product-desc">小規模オフィスや店舗向けの業務用モデル。大容量タンクと高速給水システムで、多人数での使用にも対応。省エネ設計で、ランニングコストを抑えながら快適な水環境を提供します。</p>
+                    
+                    <div class="spec-features">
+                        <div class="spec-feature">
+                            <span class="feature-icon">🏢</span>
+                            <div class="feature-text">
+                                <h4>オフィス・店舗向け</h4>
+                                <p>5〜15人の使用に最適</p>
+                            </div>
+                        </div>
+                        <div class="spec-feature">
+                            <span class="feature-icon">⚡</span>
+                            <div class="feature-text">
+                                <h4>高速給水システム</h4>
+                                <p>1分間に最大1L給水可能</p>
+                            </div>
+                        </div>
+                        <div class="spec-feature">
+                            <span class="feature-icon">💧</span>
+                            <div class="feature-text">
+                                <h4>業務用高性能フィルター</h4>
+                                <p>大容量・長寿命設計</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <table class="spec-table">
+                        <tr>
+                            <th>サイズ</th>
+                            <td>幅30cm × 奥行35cm × 高さ40cm</td>
+                        </tr>
+                        <tr>
+                            <th>重量</th>
+                            <td>約5.0kg</td>
+                        </tr>
+                        <tr>
+                            <th>タンク容量</th>
+                            <td>4.0L</td>
+                        </tr>
+                        <tr>
+                            <th>消費電力</th>
+                            <td>580W（省エネモード搭載）</td>
+                        </tr>
+                        <tr>
+                            <th>カラー</th>
+                            <td>ホワイト / シルバー</td>
+                        </tr>
+                    </table>
+                    
+                    <div class="price-badge">月額 6,980円（税込）</div>
+                    <a href="form.html" class="spec-cta">このモデルを申し込む</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- プラン・料金セクション -->
+<section class="pricing" id="pricing">
+<h2 class="section-title">料金プラン</h2>
+
+<div class="pricing-tabs">
+    <div class="pricing-tab-buttons">
+        <button class="pricing-tab-button active" data-target="plan-basic">ベーシック</button>
+        <button class="pricing-tab-button" data-target="plan-family">ファミリー</button>
+        <button class="pricing-tab-button" data-target="plan-business">ビジネス</button>
+    </div>
+    
+    <div class="pricing-tab-content">
+        <!-- ベーシックプラン -->
+        <div class="pricing-tab-panel active" id="plan-basic">
+            <div class="plan-container">
+                <div class="plan-header">
+                    <h3 class="plan-title">ベーシックプラン</h3>
+                    <div class="plan-subtitle">一人暮らし・少人数向け</div>
+                    <div class="plan-price">
+                        <span class="price-amount">3,480</span><span class="price-period">円/月（税込）</span>
+                    </div>
+                    <div class="plan-billing">初期費用0円 / 最低契約期間なし</div>
+                </div>
+                
+                <div class="plan-body">
+                    <div class="plan-description">
+                        <p>一人暮らしや少人数の家庭、小規模事業所に最適なエントリープラン。基本的な機能を搭載したModel-Sで、いつでも美味しいお水を。</p>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li>Model-S 本体レンタル</li>
+                        <li>基本フィルター交換サービス（6ヶ月ごと）</li>
+                        <li>平日カスタマーサポート</li>
+                        <li>初期設置サポート</li>
+                        <li>故障時の無料修理・交換</li>
+                    </ul>
+                    
+                    <div class="plan-recommendation">
+                        <span class="recommendation-label">こんな方におすすめ</span>
+                        <ul class="recommendation-list">
+                            <li>一人暮らしの方</li>
+                            <li>少人数の家庭</li>
+                            <li>1日1〜2Lの水消費量の方</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="plan-footer">
+                    <a href="form.html" class="plan-cta">申し込む</a>
+                    <div class="plan-note">※30日間返金保証付き</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ファミリープラン -->
+        <div class="pricing-tab-panel" id="plan-family">
+            <div class="plan-container">
+                <div class="plan-popular-badge">人気No.1</div>
+                <div class="plan-header">
+                    <h3 class="plan-title">ファミリープラン</h3>
+                    <div class="plan-subtitle">家族世帯向けプレミアムプラン</div>
+                    <div class="plan-price">
+                        <span class="price-amount">4,980</span><span class="price-period">円/月（税込）</span>
+                    </div>
+                    <div class="plan-billing">初期費用0円 / 最低契約期間なし</div>
+                </div>
+                
+                <div class="plan-body">
+                    <div class="plan-description">
+                        <p>3〜5人の家族世帯に最適な多機能プラン。高性能フィルターと5段階温度設定を備えたModel-Pで、飲料水はもちろん、料理、お茶、コーヒーにも最適な水を提供します。</p>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li>Model-P 本体レンタル</li>
+                        <li>高性能フィルター交換サービス（6ヶ月ごと）</li>
+                        <li>24時間365日カスタマーサポート</li>
+                        <li>専門スタッフによる設置サービス</li>
+                        <li>故障時の優先修理・交換</li>
+                        <li>水質検査レポート（年2回）</li>
+                        <li>オンライン会員サービス</li>
+                    </ul>
+                    
+                    <div class="plan-recommendation">
+                        <span class="recommendation-label">こんな方におすすめ</span>
+                        <ul class="recommendation-list">
+                            <li>3〜5人の家族世帯</li>
+                            <li>お茶やコーヒーをよく飲まれる方</li>
+                            <li>料理にもこだわりのある方</li>
+                            <li>1日3〜5Lの水消費量の方</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="plan-footer">
+                    <a href="form.html" class="plan-cta highlighted">申し込む</a>
+                    <div class="plan-note">※30日間返金保証付き</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ビジネスプラン -->
+        <div class="pricing-tab-panel" id="plan-business">
+            <div class="plan-container">
+                <div class="plan-header">
+                    <h3 class="plan-title">ビジネスプラン</h3>
+                    <div class="plan-subtitle">オフィス・店舗向け業務用プラン</div>
+                    <div class="plan-price">
+                        <span class="price-amount">6,980</span><span class="price-period">円/月（税込）</span>
+                    </div>
+                    <div class="plan-billing">初期費用0円 / 最低契約期間なし</div>
+                </div>
+                
+                <div class="plan-body">
+                    <div class="plan-description">
+                        <p>小規模オフィスや店舗に最適な業務用プラン。大容量タンクと高速給水システムを備えたModel-Oで、多人数での使用にも対応。福利厚生や来客用にも最適です。</p>
+                    </div>
+                    
+                    <ul class="plan-features">
+                        <li>Model-O 本体レンタル</li>
+                        <li>業務用高性能フィルター交換サービス（4ヶ月ごと）</li>
+                        <li>24時間365日カスタマーサポート</li>
+                        <li>専門スタッフによる設置サービス</li>
+                        <li>故障時の即日対応サービス</li>
+                        <li>水質検査レポート（年4回）</li>
+                        <li>オンライン会員サービス</li>
+                        <li>法人向け請求書発行対応</li>
+                        <li>複数台導入割引あり</li>
+                    </ul>
+                    
+                    <div class="plan-recommendation">
+                        <span class="recommendation-label">こんな方におすすめ</span>
+                        <ul class="recommendation-list">
+                            <li>5〜15人規模のオフィス</li>
+                            <li>カフェやレストランなどの飲食店</li>
+                            <li>クリニックや美容室など</li>
+                            <li>1日5L以上の水消費量の事業所</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="plan-footer">
+                    <a href="form.html" class="plan-cta">申し込む</a>
+                    <div class="plan-note">※14日間無料お試し可能</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="plan-comparison">
+    <div class="comparison-header">
+        <div class="comparison-title">ペットボトルとの比較</div>
+        <div class="comparison-row header">
+            <div class="comparison-cell"></div>
+            <div class="comparison-cell"><span class="highlight">アクアピュア</span></div>
+            <div class="comparison-cell">ペットボトル</div>
+        </div>
+    </div>
+    <div class="comparison-body">
+        <div class="comparison-row">
+            <div class="comparison-cell">月額コスト</div>
+            <div class="comparison-cell"><span class="highlight">3,480円〜</span></div>
+            <div class="comparison-cell">約6,000円〜</div>
+        </div>
+        <div class="comparison-row">
+            <div class="comparison-cell">購入の手間</div>
+            <div class="comparison-cell"><span class="highlight">なし</span></div>
+            <div class="comparison-cell">あり（買い物・持ち運び）</div>
+        </div>
+        <div class="comparison-row">
+            <div class="comparison-cell">ゴミ処理</div>
+            <div class="comparison-cell"><span class="highlight">なし</span></div>
+            <div class="comparison-cell">あり（ペットボトル・ケース）</div>
+        </div>
+        <div class="comparison-row">
+            <div class="comparison-cell">設置スペース</div>
+            <div class="comparison-cell"><span class="highlight">コンパクト</span></div>
+            <div class="comparison-cell">保管場所が必要</div>
+        </div>
+        <div class="comparison-row">
+            <div class="comparison-cell">温水・冷水</div>
+            <div class="comparison-cell"><span class="highlight">両方対応</span></div>
+            <div class="comparison-cell">別途機器が必要</div>
+        </div>
+        <div class="comparison-row">
+            <div class="comparison-cell">環境負荷</div>
+            <div class="comparison-cell"><span class="highlight">低い</span></div>
+            <div class="comparison-cell">高い</div>
+        </div>
+    </div>
+</div>
+
+<div class="payment-security payment-security-banner">
+    <div class="security-icon">🔒</div>
+    <div class="security-text">
+        <p>安全なStripe決済システムを使用しています</p>
+        <p class="security-subtext">クレジットカード情報は暗号化されて送信され、当社のサーバーには保存されません</p>
+    </div>
+    <div class="payment-icons">
+        <img src="/api/placeholder/40/25" alt="VISA">
+        <img src="/api/placeholder/40/25" alt="MasterCard">
+        <img src="/api/placeholder/40/25" alt="JCB">
+        <img src="/api/placeholder/40/25" alt="American Express">
+    </div>
+</div>
+</section>
+
+<!-- よくある質問セクション -->
+<section class="faq" id="faq">
+<h2 class="section-title">よくある質問</h2>
+<div class="faq-container">
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>初期費用はかかりますか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>いいえ、初期費用は一切かかりません。月額料金のみでご利用いただけます。他社で一般的な初期費用10,000円〜20,000円が不要です。</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>フィルター交換はどうすればいいですか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>フィルター交換は6ヶ月ごとに当社から新しいフィルターをお送りします。簡単な手順で、ご自身で交換していただくことができます。交換方法はマニュアルとWeb動画でご案内しています。</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>解約はいつでもできますか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>はい、解約はいつでも可能です。解約金もかかりません。解約時は本体をご返却いただく必要があります。当社指定の配送業者が無料で引き取りに伺います。</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>故障した場合はどうなりますか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>故障時は無料で修理または交換対応いたします。カスタマーサポートにご連絡ください。平日だけでなく、土日祝日も10:00〜17:00までサポート対応しています。</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>水道代はどれくらいかかりますか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>通常の水道使用量に比べて大きな負担にはなりません。月に約100円〜300円程度の水道代が追加される程度です。ペットボトル購入に比べると大幅な節約になります。</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>水質はどのように保証されていますか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>当社の5段階フィルターシステムは、第三者機関による水質検査を定期的に実施しています。WHO（世界保健機関）の定める水質基準をクリアしており、赤ちゃんのミルク作りにも安心してご利用いただけます。</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>ペットボトルと比べて環境にどのくらい優しいですか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>4人家族の場合、年間約500本のペットボトル（2Lサイズ）を削減できると試算しています。これは約10kgのプラスチック廃棄物削減に相当します。CO2排出量も、製造から輸送までを考慮すると年間約25kg削減できます。</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+            <span>支払い方法は何がありますか？</span>
+            <span>+</span>
+        </div>
+        <div class="faq-answer">
+            <p>クレジットカード決済（VISA、Mastercard、JCB、American Express）に対応しています。安全なStripe決済システムを採用しているため、セキュリティ面でも安心です。</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- お客様の声セクション -->
+<section class="testimonials" id="testimonials">
+<h2 class="section-title">お客様の声</h2>
+<div class="testimonials-container">
+    <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-text">「毎日のペットボトル購入の手間から解放されました。子供たちも自分で水を入れられるので、水分摂取が増えました。温水機能でいつでもお茶が飲めるのも助かります。」</p>
+        <div class="testimonial-author">
+            <img src="/api/placeholder/60/60" alt="田中さん" class="testimonial-avatar">
+            <div class="testimonial-info">
+                <p class="testimonial-name">田中 美穂さん</p>
+                <p class="testimonial-details">35歳・主婦・2児の母</p>
+                <p class="testimonial-date">利用期間：1年3ヶ月</p>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-text">「10人ほどの小さな事務所で使っています。来客用にペットボトルを買わなくて済むようになり、コスト削減になりました。スタイリッシュなデザインで、オフィスの雰囲気にもマッチしています。」</p>
+        <div class="testimonial-author">
+            <img src="/api/placeholder/60/60" alt="佐藤さん" class="testimonial-avatar">
+            <div class="testimonial-info">
+                <p class="testimonial-name">佐藤 健太さん</p>
+                <p class="testimonial-details">42歳・会社経営</p>
+                <p class="testimonial-date">利用期間：8ヶ月</p>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-card">
+        <div class="testimonial-rating">★★★★★</div>
+        <p class="testimonial-text">「一人暮らしですが、ミネラルウォーターを買って帰るのが大変でした。このサーバーを導入してからは、美味しい水が手軽に飲めて、料理にも使えて満足しています。コンパクトなので1Kの部屋でも場所を取りません。」</p>
+        <div class="testimonial-author">
+            <img src="/api/placeholder/60/60" alt="山田さん" class="testimonial-avatar">
+            <div class="testimonial-info">
+                <p class="testimonial-name">山田 優子さん</p>
+                <p class="testimonial-details">28歳・会社員</p>
+                <p class="testimonial-date">利用期間：6ヶ月</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- 環境貢献セクション -->
+<section class="eco-section">
+<div class="eco-content">
+    <h2 class="eco-title">環境にやさしい選択</h2>
+    <div class="eco-stats">
+        <div class="eco-stat-item">
+            <div class="eco-stat-number">500本</div>
+            <div class="eco-stat-text">年間削減ペットボトル<br>(4人家族の場合)</div>
+        </div>
+        <div class="eco-stat-item">
+            <div class="eco-stat-number">10kg</div>
+            <div class="eco-stat-text">プラスチック廃棄物削減量<br>(年間)</div>
+        </div>
+        <div class="eco-stat-item">
+            <div class="eco-stat-number">25kg</div>
+            <div class="eco-stat-text">CO2排出量削減<br>(製造・輸送含む)</div>
+        </div>
+    </div>
+    <p class="eco-message">アクアピュアを選ぶことは、地球環境を守る小さな一歩です。<br>毎日の暮らしの中で、簡単にできるエコな選択をしませんか？</p>
+</div>
+</section>
+
+<!-- CTA セクション -->
+<section class="cta-section">
+<div class="cta-content">
+    <h2>いつでも美味しいお水を、今すぐあなたの生活に。</h2>
+    <p>初期費用0円、月額3,980円からはじめられる卓上ウォーターサーバーサブスクリプション。</p>
+    <div class="cta-benefits">
+        <span>✓ 初期費用0円</span>
+        <span>✓ 解約金0円</span>
+        <span>✓ 送料無料</span>
+        <span>✓ 30日間返金保証</span>
+    </div>
+    <a href="form.html" class="cta-button-large">今すぐ申し込む</a>
+    <p class="cta-note">※お申し込みから最短3日でお届け</p>
+</div>
+</section>
+
+<footer>
+<div class="footer-container">
+    <div class="footer-column">
+        <h3>アクアピュア</h3>
+        <ul class="footer-links">
+            <li><a href="#features">特徴</a></li>
+            <li><a href="#specifications">商品仕様</a></li>
+            <li><a href="#pricing">料金プラン</a></li>
+            <li><a href="#faq">よくある質問</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h3>会社情報</h3>
+        <ul class="footer-links">
+            <li><a href="company.html">会社案内</a></li>
+            <li><a href="legal.html">特定商取引法に基づく表記</a></li>
+            <li><a href="privacy.html">プライバシーポリシー</a></li>
+            <li><a href="terms.html">利用規約</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h3>サポート</h3>
+        <ul class="footer-links">
+            <li><a href="contact.html">お問い合わせ</a></li>
+            <li><a href="delivery.html">配送について</a></li>
+            <li><a href="return.html">返品・交換について</a></li>
+            <li><a href="cancel.html">解約について</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h3>お問い合わせ</h3>
+        <p>〒XXX-XXXX<br>東京都〇〇区〇〇XX-XX<br>アクアピュア株式会社</p>
+        <p>TEL: 0120-XXX-XXX<br>（受付時間：平日10:00〜18:00）</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">
+                <img src="/api/placeholder/30/30" alt="Instagram">
+            </a>
+            <a href="#" class="social-icon">
+                <img src="/api/placeholder/30/30" alt="Twitter">
+            </a>
+            <a href="#" class="social-icon">
+                <img src="/api/placeholder/30/30" alt="Facebook">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="trust-badges">
+    <div class="trust-badge">
+        <img src="/api/placeholder/100/50" alt="SSL保証">
+        <span>SSL暗号化通信</span>
+    </div>
+    <div class="trust-badge">
+        <img src="/api/placeholder/100/50" alt="プライバシーマーク">
+        <span>プライバシーマーク取得</span>
+    </div>
+    <div class="trust-badge">
+        <img src="/api/placeholder/100/50" alt="品質保証">
+        <span>水質検査実施済み</span>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>&copy; 2025 アクアピュア株式会社 All Rights Reserved.</p>
+    <p>本サイトは、全ページSSL暗号化通信によって保護されています。</p>
+</div>
+</footer>
+
+<script>
+// ハンバーガーメニュー
+document.querySelector('.hamburger').addEventListener('click', function() {
+    document.querySelector('.nav-menu').classList.toggle('active');
+});
+
+// 商品カラー切り替え
+document.querySelectorAll('.color-option').forEach(option => {
+    option.addEventListener('click', function() {
+        const color = this.classList.contains('white') ? 'white' : 'blue';
+        const productImage = document.querySelector('.hero-image img');
+        
+        // 本番環境では実際の画像パスに置き換え
+        // productImage.src = `images/product-${color}.jpg`;
+        
+        // 色選択のビジュアルフィードバック
+        document.querySelectorAll('.color-option').forEach(opt => {
+            opt.style.border = '2px solid #fff';
+        });
+        this.style.border = '2px solid #0078c8';
+    });
+});
+
+// 商品仕様タブ切り替え
+document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', function() {
+        // タブボタンのアクティブ状態を切り替え
+        document.querySelectorAll('.tab-button').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        this.classList.add('active');
+        
+        // タブパネルの表示を切り替え
+        const targetId = this.getAttribute('data-target');
+        document.querySelectorAll('.tab-panel').forEach(panel => {
+            panel.classList.remove('active');
+        });
+        document.getElementById(targetId).classList.add('active');
+    });
+});
+
+// 商品カラー選択（仕様セクション）
+document.querySelectorAll('.color-choice').forEach(choice => {
+    choice.addEventListener('click', function() {
+        // 同じ親要素内のカラー選択肢から現在のアクティブクラスを削除
+        const parent = this.closest('.color-choices');
+        parent.querySelectorAll('.color-choice').forEach(c => {
+            c.classList.remove('active');
+        });
+        
+        // クリックされた選択肢にアクティブクラスを追加
+        this.classList.add('active');
+        
+        // 本番環境では実際の画像パスに置き換え
+        // const color = this.classList.contains('white') ? 'white' : 
+        //               this.classList.contains('blue') ? 'blue' : 
+        //               this.classList.contains('black') ? 'black' :
+        //               this.classList.contains('gold') ? 'gold' : 'silver';
+        // const productImage = this.closest('.spec-image').querySelector('img');
+        // productImage.src = `images/product-${color}.jpg`;
+    });
+});
+
+// 料金プランタブ切り替え
+document.querySelectorAll('.pricing-tab-button').forEach(button => {
+    button.addEventListener('click', function() {
+        // タブボタンのアクティブ状態を切り替え
+        document.querySelectorAll('.pricing-tab-button').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        this.classList.add('active');
+        
+        // タブパネルの表示を切り替え
+        const targetId = this.getAttribute('data-target');
+        document.querySelectorAll('.pricing-tab-panel').forEach(panel => {
+            panel.classList.remove('active');
+        });
+        document.getElementById(targetId).classList.add('active');
+    });
+});
+
+// FAQアコーディオン
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', function() {
+        const item = this.parentNode;
+        item.classList.toggle('active');
+        
+        const icon = this.querySelector('span:last-child');
+        icon.textContent = item.classList.contains('active') ? '-' : '+';
+    });
+});
+</script>
+</body>
+</html>
